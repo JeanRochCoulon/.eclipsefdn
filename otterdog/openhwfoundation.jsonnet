@@ -34,7 +34,7 @@ orgs.newOrg('openhw', 'openhwfoundation') {
       dependabot_alerts_enabled: false,
       description: "Advanced Verification Methodologies for RISC-V and related IP",
       private_vulnerability_reporting_enabled: true,
-      secret_scanning: "disabled",
+      secret_scanning: "enabled",
       secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
