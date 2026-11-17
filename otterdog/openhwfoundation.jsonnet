@@ -859,6 +859,7 @@ orgs.newOrg('openhw', 'openhwfoundation') {
       web_commit_signoff_required: false,
     },
     orgs.newRepo('cva6') {
+      allow_merge_commit: true,
       allow_auto_merge: true,
       allow_update_branch: false,
       default_branch: "main",
